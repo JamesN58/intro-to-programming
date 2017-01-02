@@ -1,9 +1,13 @@
-puts "What is your name?"
+puts "What is your first name?"
 
-name = gets.chomp
+f_name = gets.chomp
 
-puts "Hello " + name
+puts "What is your last name?"
+
+l_name = gets.chomp
+
+puts "Hello " + f_name + " " + l_name
 
 10.times do |n|
-    puts name
+    puts f_name + " " + l_name
   end
